@@ -62,6 +62,36 @@
         ],
         "createdAt": "2026-09-24T16:59:16.880Z",
         "reason": "only coloured shadows in this file are the Enhalation halo-glow/halo-glow-lift tokens and focus ring, specified by the user's own design system"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#000",
+        "createdAt": "2026-09-24T17:09:09.036Z",
+        "reason": "mask alpha and screen-blend black base, not a visible colour"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#ffffff59",
+        "createdAt": "2026-09-24T17:09:09.058Z",
+        "reason": "Enhalation core-button inner top light"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#f38ba8",
+        "createdAt": "2026-09-24T17:09:09.080Z",
+        "reason": "ctp-red, used only in the halation tint recipe recorded in DESIGN.md"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#fff0e2",
+        "createdAt": "2026-09-24T17:09:09.103Z",
+        "reason": "white-hot core of the light leak recipe"
+      },
+      {
+        "rule": "design-system-color",
+        "value": "#fff6ef",
+        "createdAt": "2026-09-24T17:09:09.125Z",
+        "reason": "white-hot core of the burn transition recipe"
       }
     ]
   }
