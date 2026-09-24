@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>slsc — works</title>
+<meta name="description" content="A collection of small interactive pieces by tyler-void.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@400;600;700&display=swap">
+<style>
+:root{
+  color-scheme: light dark;
+  --bg:#f4f2ec; --fg:#15171a; --mute:#6b6f76; --line:#d9d5ca; --card:#ebe8df; --accent:#b8650a;
+  --f-ui:"IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --bg:#07090c; --fg:#e6ecf0; --mute:#8f9ca9; --line:#1d2631; --card:#0e131a; --accent:#ffae3b; }
+}
+:root[data-theme="dark"]{ --bg:#07090c; --fg:#e6ecf0; --mute:#8f9ca9; --line:#1d2631; --card:#0e131a; --accent:#ffae3b; }
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 var(--f-ui);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+.kicker{margin:0 0 14px;font:500 13px/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{margin:0;font:700 clamp(56px,11vw,132px)/.85 var(--f-ui);letter-spacing:-.02em}
+.intro{margin:20px 0 0;max-width:34rem;color:var(--mute);font-size:18px}
+
+.works{list-style:none;margin:0;padding:40px 0 80px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:32px}
+.work a{display:block;text-decoration:none}
+.thumb{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--card);border:1px solid var(--line);border-radius:4px}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.2,.7,.2,1),filter .6s}
+.work a:hover .thumb img{transform:scale(1.03);filter:brightness(1.12)}
+.work a:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:4px}
+.meta{display:flex;align-items:baseline;gap:14px;margin-top:14px}
+.num{font:500 13px/1 var(--f-mono);color:var(--accent)}
+.meta h2{margin:0;font:600 24px/1.1 var(--f-ui);flex:1}
+.year{font:13px/1 var(--f-mono);color:var(--mute)}
+.blurb{margin:8px 0 0;color:var(--mute);max-width:36rem}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;padding:0;list-style:none}
+.tags li{font:12px/1 var(--f-mono);color:var(--mute);border:1px solid var(--line);border-radius:2px;padding:5px 7px}
+
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--mute);font:13px/1.4 var(--f-mono);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:var(--mute)}
+footer a:hover{color:var(--fg)}
+
+@media (max-width:600px){ .wrap{padding:0 16px} header{padding:48px 0 28px} .works{padding:28px 0 56px;gap:28px} }
+@media (prefers-reduced-motion:reduce){ .thumb img{transition:none} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="kicker">Works · tyler-void</p>
+    <h1>slsc</h1>
+    <p class="intro">Small interactive pieces, each one a single page that runs in the browser.</p>
+  </header>
+
+  <main>
+    <!-- To add a piece: put it in works/<slug>/ with an index.html and a 1200×750 thumb.webp,
+         then copy one <li class="work"> below. Newest first. -->
+    <ol class="works" reversed>
+      <li class="work">
+        <a href="works/3am-vending-machine/">
+          <div class="thumb"><img src="works/3am-vending-machine/thumb.webp" width="1200" height="750" alt="A lit vending machine beside a bus shelter on a rainy street at night" loading="lazy"></div>
+          <div class="meta"><span class="num">01</span><h2>3 A.M. Vending Machine</h2><span class="year">2026</span></div>
+          <p class="blurb">A bus stop in the rain. A machine that never closes. One regular, most nights.</p>
+          <ul class="tags"><li>three.js</li><li>webgl</li><li>web audio</li></ul>
+        </a>
+      </li>
+    </ol>
+  </main>
+
+  <footer>
+    <span>© 2026 Tyler</span>
+    <a href="https://github.com/tyler-void/slsc">source on github</a>
+  </footer>
+</div>
+</body>
+</html>
