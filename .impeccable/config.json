@@ -1,0 +1,68 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "dark-glow",
+        "value": "var(--halo-glow)",
+        "createdAt": "2026-09-24T16:50:11.427Z",
+        "reason": "Enhalation design system (user's own, shared in session) specifies halo-glow shadows for the core action"
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T16:50:11.469Z",
+        "reason": "false positive: matched an HTML comment describing how to add <img> lines; all real <img> tags have src"
+      },
+      {
+        "rule": "overused-font",
+        "value": "geist mono",
+        "createdAt": "2026-09-24T16:53:45.327Z",
+        "reason": "Enhalation design system (user's own, shared in session) pins Geist Mono"
+      },
+      {
+        "rule": "overused-font",
+        "value": "geist",
+        "createdAt": "2026-09-24T16:53:45.349Z",
+        "reason": "Enhalation design system (user's own, shared in session) pins Geist"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(.34, 1.56, .64, 1)",
+        "createdAt": "2026-09-24T16:53:45.371Z",
+        "reason": "Enhalation ease-spring token for release/thumb/chevron motion"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T16:53:45.392Z",
+        "reason": "false positive: repeating gradients are the film sprocket perforations on the leader-tag button"
+      },
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T16:53:45.414Z",
+        "reason": "the light leak/halation is the chosen hand-processed-film direction's core material, curated to the user's Enhalation warm core"
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-09-24T16:59:16.880Z",
+        "reason": "only coloured shadows in this file are the Enhalation halo-glow/halo-glow-lift tokens and focus ring, specified by the user's own design system"
+      }
+    ]
+  }
+}

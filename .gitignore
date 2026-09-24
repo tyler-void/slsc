@@ -1,3 +1,8 @@
 .playwright-mcp/
 .DS_Store
 node_modules/
+.impeccable/ref/
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/config.local.json
+.impeccable/questions/

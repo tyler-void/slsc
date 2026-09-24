@@ -1,0 +1,479 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-24T17:06:12.874Z",
+  "title": "Design System: slsc",
+  "extensions": {
+    "colorMeta": {
+      "ground-deep": {
+        "role": "neutral",
+        "displayName": "Leader Crust",
+        "canonical": "oklch(18.3% 0.020 284.2)",
+        "tonalRamp": [
+          "#0a0a13",
+          "#24242f",
+          "#40414d",
+          "#5f606d",
+          "#80818e",
+          "#a3a4b2",
+          "#c7c8d6",
+          "#ecedfc"
+        ]
+      },
+      "ground-sunken": {
+        "role": "neutral",
+        "displayName": "Film Base Mantle",
+        "canonical": "oklch(21.6% 0.025 284.1)",
+        "tonalRamp": [
+          "#0a0a15",
+          "#232331",
+          "#40404f",
+          "#5f6070",
+          "#808191",
+          "#a3a3b5",
+          "#c7c7da",
+          "#ecedfe"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Mocha Base",
+        "canonical": "oklch(24.3% 0.030 283.9)",
+        "tonalRamp": [
+          "#0a0917",
+          "#232333",
+          "#404052",
+          "#5f5f72",
+          "#808094",
+          "#a2a3b8",
+          "#c6c7dd",
+          "#ecedff"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Lavender Ink",
+        "canonical": "oklch(87.9% 0.043 272.3)",
+        "tonalRamp": [
+          "#06091d",
+          "#1e243a",
+          "#3a4159",
+          "#59607a",
+          "#79819d",
+          "#9ba4c0",
+          "#bfc8e6",
+          "#e9eefe"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Lavender",
+        "canonical": "oklch(75.1% 0.040 273.9)",
+        "tonalRamp": [
+          "#07091c",
+          "#1f2438",
+          "#3b4157",
+          "#5a6078",
+          "#7b819b",
+          "#9da4bf",
+          "#c1c8e4",
+          "#e9eeff"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Rule Surface",
+        "canonical": "oklch(40.4% 0.032 280.2)",
+        "tonalRamp": [
+          "#090918",
+          "#222334",
+          "#3e4053",
+          "#5d6074",
+          "#7e8196",
+          "#a1a3b9",
+          "#c5c7de",
+          "#ebedff"
+        ]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Rule",
+        "canonical": "oklch(55.0% 0.034 277.1)",
+        "tonalRamp": [
+          "#080919",
+          "#212336",
+          "#3d4155",
+          "#5c6075",
+          "#7d8197",
+          "#9fa4bb",
+          "#c3c8e0",
+          "#eaedfe"
+        ]
+      },
+      "halo-1": {
+        "role": "primary",
+        "displayName": "Warm Core Peach",
+        "canonical": "oklch(82.4% 0.101 52.6)",
+        "tonalRamp": [
+          "#170600",
+          "#3d1a00",
+          "#683001",
+          "#8d4f23",
+          "#b27046",
+          "#d79368",
+          "#feb78b",
+          "#feeade"
+        ]
+      },
+      "halo-2": {
+        "role": "primary",
+        "displayName": "Warm Core Pink",
+        "canonical": "oklch(87.0% 0.075 336.3)",
+        "tonalRamp": [
+          "#1b0015",
+          "#3b1432",
+          "#5b3151",
+          "#7c5071",
+          "#9f7193",
+          "#c493b7",
+          "#e9b7dc",
+          "#ffe6f7"
+        ]
+      },
+      "halo-3": {
+        "role": "secondary",
+        "displayName": "Mauve Bleed",
+        "canonical": "oklch(78.7% 0.119 304.8)",
+        "tonalRamp": [
+          "#130025",
+          "#330b52",
+          "#512d74",
+          "#714d97",
+          "#936fbb",
+          "#b691e1",
+          "#d8b9fe",
+          "#f3eaff"
+        ]
+      },
+      "spark": {
+        "role": "tertiary",
+        "displayName": "Spark Teal",
+        "canonical": "oklch(85.8% 0.079 182.7)",
+        "tonalRamp": [
+          "#000f0c",
+          "#002c27",
+          "#014d45",
+          "#1b7065",
+          "#449286",
+          "#68b6a9",
+          "#8ddace",
+          "#b9fff3"
+        ]
+      },
+      "rosewater": {
+        "role": "tertiary",
+        "displayName": "Grease Pencil Rosewater",
+        "canonical": "oklch(92.3% 0.024 30.5)",
+        "tonalRamp": [
+          "#140706",
+          "#30211e",
+          "#4e3d3a",
+          "#6e5c59",
+          "#907d7a",
+          "#b4a09c",
+          "#d8c4c0",
+          "#fee9e5"
+        ]
+      },
+      "on-halo": {
+        "role": "neutral",
+        "displayName": "On Halo",
+        "canonical": "oklch(18.3% 0.020 284.2)",
+        "tonalRamp": [
+          "#0a0a13",
+          "#24242f",
+          "#40414d",
+          "#5f606d",
+          "#80818e",
+          "#a3a4b2",
+          "#c7c8d6",
+          "#ecedfc"
+        ]
+      },
+      "glass-fill": {
+        "role": "neutral",
+        "displayName": "Caption Glass",
+        "canonical": "#232334d6",
+        "tonalRamp": [
+          "#0a0918",
+          "#232334",
+          "#404053",
+          "#5f5f73",
+          "#808095",
+          "#a2a3b9",
+          "#c6c7de",
+          "#ecedfe"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The one page title; once per page."
+      },
+      "flourish": {
+        "displayName": "Flourish",
+        "purpose": "One English serif word inside the display line, in halo-1."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Slice name in the glass caption."
+      },
+      "body-lg": {
+        "displayName": "Body Large",
+        "purpose": "The lead under the display line, max 40ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base text and caption descriptions, max 52ch."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "The core action label."
+      },
+      "label": {
+        "displayName": "Edge Print",
+        "purpose": "Mono uppercase for margins and metadata: rail, frame numbers, meta, nav, footer. Never a label above a heading."
+      },
+      "pencil": {
+        "displayName": "Grease Pencil",
+        "purpose": "Hand marks in rosewater: caption numeral (40px), leader notes (28px), inline 1.22em."
+      }
+    },
+    "shadows": [
+      {
+        "name": "glass-float",
+        "value": "0 30px 60px -20px #08080de6, 0 12px 24px -12px #08080d99",
+        "purpose": "The reel and the glass caption."
+      },
+      {
+        "name": "glass-rim",
+        "value": "inset 0 1px 0 #f5e0dc29, inset 0 -1px 0 #11111b99",
+        "purpose": "Lit top and shaded bottom edge of glass."
+      },
+      {
+        "name": "halo-glow",
+        "value": "0 10px 34px -8px #cba6f780, 0 6px 22px -8px #fab38766",
+        "purpose": "Core action at rest and pressed."
+      },
+      {
+        "name": "halo-glow-lift",
+        "value": "0 18px 48px -8px #cba6f7a6, 0 8px 28px -8px #fab3878c",
+        "purpose": "Core action on hover."
+      },
+      {
+        "name": "focus-ring",
+        "value": "0 0 0 2px #1e1e2e, 0 0 0 4px #cba6f7",
+        "purpose": "Every focusable element; listed first in any stack."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-expo",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Arrivals, hovers, developing colour, halation, leak, pencil draw."
+      },
+      {
+        "name": "ease-spring",
+        "value": "cubic-bezier(.34,1.56,.64,1)",
+        "purpose": "Release after press, magnetic lean return, arrow nudge."
+      },
+      {
+        "name": "ease-press",
+        "value": "cubic-bezier(.3,0,.2,1)",
+        "purpose": "Press down (90ms, scale .972)."
+      },
+      {
+        "name": "ease-exit",
+        "value": "cubic-bezier(.5,0,.75,0)",
+        "purpose": "The burn transition (720ms)."
+      },
+      {
+        "name": "dur-press",
+        "value": "90ms",
+        "purpose": "Press."
+      },
+      {
+        "name": "dur-hover",
+        "value": "180ms",
+        "purpose": "Link colour and glow lift."
+      },
+      {
+        "name": "dur-slide",
+        "value": "420ms",
+        "purpose": "Gradient slide and spring travel."
+      },
+      {
+        "name": "dur-burn",
+        "value": "720ms",
+        "purpose": "Burn clip-path; navigation fires at 680ms."
+      },
+      {
+        "name": "dur-develop",
+        "value": "1.1s",
+        "purpose": "Colour developing across a frame (--reveal)."
+      },
+      {
+        "name": "dur-pencil",
+        "value": "1.6s (+.35s delay)",
+        "purpose": "Grease-pencil circle drawing itself."
+      },
+      {
+        "name": "breathe",
+        "value": "4.5s ease-in-out infinite",
+        "purpose": "Leak on the gate frame."
+      },
+      {
+        "name": "boil",
+        "value": "1s steps(6) infinite",
+        "purpose": "Page grain; paused when the tab is hidden."
+      },
+      {
+        "name": "grain-strength",
+        "value": ".22",
+        "purpose": "Grain on fills and the burn."
+      },
+      {
+        "name": "grain-soft",
+        "value": ".12",
+        "purpose": "Page-wide grain overlay."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "single-column",
+        "value": "860px",
+        "purpose": "Rail hidden, stage stacks, intro not sticky, caption and reel tighten."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Core Action",
+      "kind": "button",
+      "refersTo": "core-action",
+      "description": "The one warm-core, sprocket-punched action per view; leans toward the cursor and triggers the burn.",
+      "html": "<a class=\"ds-core\" href=\"#\">Step into the newest slice <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></a>",
+      "css": ":host{--ground:#1e1e2e;--ground-sunken:#181825;--ground-deep:#11111b;--ink:#cdd6f4;--ink-muted:#a6adc8;--line:#45475a;--halo-1:#fab387;--halo-2:#f5c2e7;--halo-3:#cba6f7;--spark:#94e2d5;--rosewater:#f5e0dc;--on-halo:#11111b;--glass-fill:#232334d6;--glass-edge:#f5e0dc29;--glass-shade:#11111b99;--glass-float:0 30px 60px -20px #08080de6, 0 12px 24px -12px #08080d99;--halo-glow:0 10px 34px -8px #cba6f780, 0 6px 22px -8px #fab38766;--halo-glow-lift:0 18px 48px -8px #cba6f7a6, 0 8px 28px -8px #fab3878c;--focus-ring:0 0 0 2px #1e1e2e, 0 0 0 4px #cba6f7;--grain:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\");--ease-out-expo:cubic-bezier(.16,1,.3,1);--ease-spring:cubic-bezier(.34,1.56,.64,1);--ease-press:cubic-bezier(.3,0,.2,1)} .ds-core{--perf:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='30'%3E%3Crect y='0' width='10' height='12' rx='2.5'/%3E%3Crect y='18' width='10' height='12' rx='2.5'/%3E%3C/svg%3E\");position:relative;display:inline-flex;align-items:center;gap:10px;height:54px;padding:0 44px;border-radius:18px;text-decoration:none;isolation:isolate;font:560 15px/20px Geist,system-ui,sans-serif;color:var(--on-halo);box-shadow:var(--halo-glow);transition:box-shadow .18s var(--ease-out-expo),transform .42s var(--ease-spring)} .ds-core::before,.ds-core::after{content:\"\";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;-webkit-mask:var(--perf) left 13px center/10px 30px no-repeat,var(--perf) right 13px center/10px 30px no-repeat,linear-gradient(#000 0 0);-webkit-mask-composite:xor,xor;mask:var(--perf) left 13px center/10px 30px no-repeat exclude,var(--perf) right 13px center/10px 30px no-repeat exclude,linear-gradient(#000 0 0)} .ds-core::before{background:linear-gradient(115deg,var(--halo-1) 0%,var(--halo-2) 50%,var(--halo-1) 100%);background-size:220% 100%;box-shadow:inset 0 1px 0 #ffffff59;transition:background-position .42s var(--ease-out-expo)} .ds-core::after{background:var(--grain);opacity:.22;mix-blend-mode:overlay} .ds-core svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;transition:transform .42s var(--ease-spring)} .ds-core:hover{box-shadow:var(--halo-glow-lift)} .ds-core:hover::before{background-position:100% 0} .ds-core:hover svg{transform:translateX(3px)} .ds-core:active{transform:scale(.972);transition-duration:.09s;transition-timing-function:var(--ease-press);box-shadow:var(--halo-glow)} .ds-core:focus-visible{outline:none;box-shadow:var(--focus-ring),var(--halo-glow)}"
+    },
+    {
+      "name": "Glass Caption",
+      "kind": "card",
+      "refersTo": "glass-caption",
+      "description": "Frosted caption overlapping a frame's lower edge: grease-pencil numeral, title, description, edge-print meta.",
+      "html": "<div class=\"ds-stage\"><div class=\"ds-cap\"><span class=\"ds-n\">01</span><h2 class=\"ds-t\"><a href=\"#\">3 A.M. Vending Machine</a></h2><p class=\"ds-d\">A bus stop in the rain. A machine that never closes. One regular, most nights.</p><div class=\"ds-meta\"><span>2026</span><span>three.js</span><span>WebGL</span></div></div></div>",
+      "css": ":host{--ground:#1e1e2e;--ground-sunken:#181825;--ground-deep:#11111b;--ink:#cdd6f4;--ink-muted:#a6adc8;--line:#45475a;--halo-1:#fab387;--halo-2:#f5c2e7;--halo-3:#cba6f7;--spark:#94e2d5;--rosewater:#f5e0dc;--on-halo:#11111b;--glass-fill:#232334d6;--glass-edge:#f5e0dc29;--glass-shade:#11111b99;--glass-float:0 30px 60px -20px #08080de6, 0 12px 24px -12px #08080d99;--halo-glow:0 10px 34px -8px #cba6f780, 0 6px 22px -8px #fab38766;--halo-glow-lift:0 18px 48px -8px #cba6f7a6, 0 8px 28px -8px #fab3878c;--focus-ring:0 0 0 2px #1e1e2e, 0 0 0 4px #cba6f7;--grain:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\");--ease-out-expo:cubic-bezier(.16,1,.3,1);--ease-spring:cubic-bezier(.34,1.56,.64,1);--ease-press:cubic-bezier(.3,0,.2,1)} .ds-stage{padding:48px 24px;background:radial-gradient(60% 80% at 80% 20%,#fab38766,transparent),radial-gradient(50% 70% at 20% 90%,#cba6f755,transparent),#181825} .ds-cap{padding:20px 24px 22px;border-radius:26px;background:var(--glass-fill);-webkit-backdrop-filter:blur(22px) saturate(170%);backdrop-filter:blur(22px) saturate(170%);box-shadow:var(--glass-float),inset 0 1px 0 var(--glass-edge),inset 0 -1px 0 var(--glass-shade);display:grid;grid-template-columns:auto 1fr;gap:2px 18px;align-items:baseline;color:var(--ink);font:400 15px/24px Geist,system-ui,sans-serif} .ds-n{grid-row:span 3;font:400 40px/1 \"Caveat Brush\",cursive;color:var(--rosewater);transform:rotate(-4deg)} .ds-t{margin:0;font:620 36px/1 \"Bricolage Grotesque\",sans-serif;font-variation-settings:\"opsz\" 48;letter-spacing:-.025em} .ds-t a{color:inherit;text-decoration:none;border-radius:6px;transition:color .18s var(--ease-out-expo)} .ds-t a:hover{color:var(--halo-2)} .ds-t a:focus-visible{outline:none;box-shadow:var(--focus-ring)} .ds-d{margin:8px 0 0;max-width:52ch;color:var(--ink-muted)} .ds-meta{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px 18px;font:500 11px/16px \"Geist Mono\",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-muted)}"
+    },
+    {
+      "name": "Film Frame (in the gate)",
+      "kind": "custom",
+      "refersTo": "film-frame",
+      "description": "4:3 emulsion window on the perforated reel; silver at rest, warm leak and halation in the gate.",
+      "html": "<div class=\"ds-reel\"><a class=\"ds-film\" href=\"#\"><span class=\"ds-img\"></span><span class=\"ds-leak\"></span><span class=\"ds-scratch\"></span></a><span class=\"ds-fno\">01 · e7</span></div>",
+      "css": ":host{--ground:#1e1e2e;--ground-sunken:#181825;--ground-deep:#11111b;--ink:#cdd6f4;--ink-muted:#a6adc8;--line:#45475a;--halo-1:#fab387;--halo-2:#f5c2e7;--halo-3:#cba6f7;--spark:#94e2d5;--rosewater:#f5e0dc;--on-halo:#11111b;--glass-fill:#232334d6;--glass-edge:#f5e0dc29;--glass-shade:#11111b99;--glass-float:0 30px 60px -20px #08080de6, 0 12px 24px -12px #08080d99;--halo-glow:0 10px 34px -8px #cba6f780, 0 6px 22px -8px #fab38766;--halo-glow-lift:0 18px 48px -8px #cba6f7a6, 0 8px 28px -8px #fab3878c;--focus-ring:0 0 0 2px #1e1e2e, 0 0 0 4px #cba6f7;--grain:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\");--ease-out-expo:cubic-bezier(.16,1,.3,1);--ease-spring:cubic-bezier(.34,1.56,.64,1);--ease-press:cubic-bezier(.3,0,.2,1)} .ds-reel{position:relative;background:var(--ground-sunken);padding:26px 56px 30px;box-shadow:var(--glass-float)} .ds-reel::before,.ds-reel::after{content:\"\";position:absolute;top:0;bottom:0;width:18px;background-image:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='46'%3E%3Crect x='2' y='14' width='14' height='18' rx='3.5' fill='%2311111b'/%3E%3C/svg%3E\");background-repeat:repeat-y} .ds-reel::before{left:15px} .ds-reel::after{right:15px} .ds-film{position:relative;display:block;aspect-ratio:4/3;border-radius:12px;overflow:hidden;background:#0c0c14} .ds-film:focus-visible{outline:none;box-shadow:var(--focus-ring)} .ds-img{position:absolute;inset:0;background:radial-gradient(30% 40% at 62% 45%,#e8e8e8,#555 40%,#1a1a1a 80%);filter:grayscale(1) contrast(1.18) brightness(.8)} .ds-leak{position:absolute;inset:0;mix-blend-mode:screen;background:radial-gradient(16% 62% at 101% 44%,#fff0e2 0%,#fab387f0 30%,#f5c2e780 60%,#cba6f726 82%,transparent 100%),linear-gradient(to left,#fab387c0,#fab38726 5%,transparent 9%);transition:opacity 1.2s var(--ease-out-expo)} .ds-leak::after{content:\"\";position:absolute;inset:0;background:var(--grain);opacity:.5;mix-blend-mode:overlay} .ds-film:hover .ds-leak{opacity:.8} .ds-scratch{position:absolute;inset:0;opacity:.45;mix-blend-mode:screen;background:linear-gradient(90deg,transparent 0 31.2%,#f5e0dc59 31.2% 31.34%,transparent 31.34% 71%,#f5e0dc2e 71% 71.07%,transparent 71.07%)} .ds-fno{position:absolute;right:21px;top:40%;writing-mode:vertical-rl;transform:rotate(180deg);font:500 11px/14px \"Geist Mono\",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--halo-1)}"
+    },
+    {
+      "name": "Top Bar Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Wordmark left, edge-print nav right with the one spark live dot.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-mark\" href=\"#\">slsc</a><nav class=\"ds-nav\"><span class=\"ds-live\">1 slice</span><a href=\"#\">Source</a></nav></header>",
+      "css": ":host{--ground:#1e1e2e;--ground-sunken:#181825;--ground-deep:#11111b;--ink:#cdd6f4;--ink-muted:#a6adc8;--line:#45475a;--halo-1:#fab387;--halo-2:#f5c2e7;--halo-3:#cba6f7;--spark:#94e2d5;--rosewater:#f5e0dc;--on-halo:#11111b;--glass-fill:#232334d6;--glass-edge:#f5e0dc29;--glass-shade:#11111b99;--glass-float:0 30px 60px -20px #08080de6, 0 12px 24px -12px #08080d99;--halo-glow:0 10px 34px -8px #cba6f780, 0 6px 22px -8px #fab38766;--halo-glow-lift:0 18px 48px -8px #cba6f7a6, 0 8px 28px -8px #fab3878c;--focus-ring:0 0 0 2px #1e1e2e, 0 0 0 4px #cba6f7;--grain:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\");--ease-out-expo:cubic-bezier(.16,1,.3,1);--ease-spring:cubic-bezier(.34,1.56,.64,1);--ease-press:cubic-bezier(.3,0,.2,1)} .ds-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px;border-bottom:1px solid var(--line);background:var(--ground-deep);color:var(--ink)} .ds-mark{font:700 26px/1 \"Bricolage Grotesque\",sans-serif;font-variation-settings:\"opsz\" 48,\"wdth\" 85;letter-spacing:-.02em;color:inherit;text-decoration:none;border-radius:8px} .ds-nav{display:flex;align-items:center;gap:24px;font:500 11px/16px \"Geist Mono\",monospace;letter-spacing:.14em;text-transform:uppercase} .ds-nav a{color:var(--ink);text-decoration:none;border-radius:6px;transition:color .18s var(--ease-out-expo)} .ds-nav a:hover{color:var(--halo-2)} .ds-nav a:focus-visible,.ds-mark:focus-visible{outline:none;box-shadow:var(--focus-ring)} .ds-live{display:inline-flex;align-items:center;gap:8px;color:var(--ink-muted)} .ds-live::before{content:\"\";width:6px;height:6px;border-radius:50%;background:var(--spark);box-shadow:0 0 0 3px #94e2d51f}"
+    },
+    {
+      "name": "Unexposed Frame",
+      "kind": "custom",
+      "refersTo": "film-frame",
+      "description": "Clear leader for the next slice or a slice without a picture; grease-pencil note, no light.",
+      "html": "<div class=\"ds-unexp\"><span>the next slice goes here</span></div>",
+      "css": ".ds-unexp{aspect-ratio:4/3;border-radius:12px;display:grid;place-items:center;background:radial-gradient(120% 90% at 18% 110%,#f5e0dc12,transparent 60%),linear-gradient(#1a1a28,#141420)} .ds-unexp span{font:400 28px/1 \"Caveat Brush\",cursive;letter-spacing:.01em;color:#f5e0dc80;transform:rotate(-3deg)}"
+    },
+    {
+      "name": "Edge Print",
+      "kind": "custom",
+      "refersTo": "edge-print",
+      "description": "Vertical Geist Mono stock line between peach start marks, down the left rail.",
+      "html": "<aside class=\"ds-rail\"><svg viewBox=\"0 0 10 10\"><path d=\"M1 0 9 5 1 10z\"/></svg><span>slsc · 16mm · strip 01 · 2026</span><svg viewBox=\"0 0 10 10\"><path d=\"M1 0 9 5 1 10z\"/></svg></aside>",
+      "css": ":host{--ground:#1e1e2e;--ground-sunken:#181825;--ground-deep:#11111b;--ink:#cdd6f4;--ink-muted:#a6adc8;--line:#45475a;--halo-1:#fab387;--halo-2:#f5c2e7;--halo-3:#cba6f7;--spark:#94e2d5;--rosewater:#f5e0dc;--on-halo:#11111b;--glass-fill:#232334d6;--glass-edge:#f5e0dc29;--glass-shade:#11111b99;--glass-float:0 30px 60px -20px #08080de6, 0 12px 24px -12px #08080d99;--halo-glow:0 10px 34px -8px #cba6f780, 0 6px 22px -8px #fab38766;--halo-glow-lift:0 18px 48px -8px #cba6f7a6, 0 8px 28px -8px #fab3878c;--focus-ring:0 0 0 2px #1e1e2e, 0 0 0 4px #cba6f7;--grain:url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\");--ease-out-expo:cubic-bezier(.16,1,.3,1);--ease-spring:cubic-bezier(.34,1.56,.64,1);--ease-press:cubic-bezier(.3,0,.2,1)} .ds-rail{width:44px;height:360px;border-right:1px solid var(--line);background:var(--ground-deep);display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:26px 0} .ds-rail span{writing-mode:vertical-rl;transform:rotate(180deg);font:500 11px/16px \"Geist Mono\",monospace;letter-spacing:.34em;text-transform:uppercase;color:var(--ink-muted)} .ds-rail svg{width:9px;height:9px;fill:var(--halo-1)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "One Strip of Hand-Processed Film",
+    "overview": "The hub is a single strip of 16mm film on a dark leader. Every slice is one frame, and the strip grows downward, newest first. Frames rest as grayscale emulsion with grain and faint scratches. The frame crossing the middle of the viewport is \"in the gate\": its own highlights halate in Enhalation's warm core, a light leak floods in from its right edge, and colour starts to develop from that side. Hovering or focusing the frame develops it fully. Entering a slice burns the film in the gate before the page changes.\n\nThe page is quiet and dark, with generous air and very few voices. The light is the event. Warm light shows up in exactly two places at once: the frame in the gate and the one core action. Everything else is the materials of a film bench: Mocha leader, sunken film base, punched sprockets, a monospace edge print down the margin, and rosewater grease pencil for the hand-made marks. Glass is used once, for the caption that floats over each frame's lower edge. It is the one element allowed to break the grid.\n\nThe system rejects the thumbnail-card grid. Slices are frames on a strip, never tiles in a gallery.",
+    "keyCharacteristics": [
+      "Dark Mocha leader (`ground-deep`) with a sunken film base (`ground-sunken`) for the reel.",
+      "Grayscale frames at rest; warm-core halation, a leak, and colour only for the frame in the gate.",
+      "One warm-core action per view, sprocket-punched like leader.",
+      "Glass caption overlapping each frame's lower edge, with a grease-pencil frame numeral.",
+      "Geist Mono edge print in the margins; Caveat Brush grease pencil for hand marks.",
+      "Grain over the whole page, stronger on everything that glows.",
+      "One authored transition: the burn."
+    ],
+    "rules": [
+      {
+        "name": "The Gate Rule",
+        "body": "Warm light (halation, leak, colour) goes only to the frame in the gate, and the warm-core fill goes only to the one core action. Frames outside the gate stay silver.",
+        "section": "colors"
+      },
+      {
+        "name": "The Grease Pencil Rule",
+        "body": "Rosewater means a hand made this mark. Use it only for pencil type, pencil strokes, scratches, and the glass rim. Never use it for UI text.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Spark Rule",
+        "body": "Teal appears once per view, as the live dot.",
+        "section": "colors"
+      },
+      {
+        "name": "The Edge Print Rule",
+        "body": "Mono uppercase is film-stock edge print. It lives in the margins and metadata (rail, frame numbers, meta row, nav, footer). It is never a label stacked above a heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Flourish Rule",
+        "body": "Only one serif word per display line, at the line's size, and only an English word.",
+        "section": "typography"
+      },
+      {
+        "name": "The Light Is Not a Shadow Rule",
+        "body": "Anything that glows gets a coloured bloom (halo glow, halation, leak), never a dark drop shadow. Dark drops are only for things that float (the reel, glass).",
+        "section": "elevation"
+      },
+      {
+        "name": "The Grain on Glow Rule",
+        "body": "Everything that glows carries grain: the core action at `grain-strength` (.22), the leak at .5, the burn at `grain-strength`. The whole page gets `grain-soft` (.12) as a fixed overlay that boils in 6 steps per second.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** add every new slice as a frame on the one strip, newest at the top, with its number stamped in the sprocket margin and a grease-pencil numeral on its glass caption.",
+      "**Do** keep frames silver at rest. Warm light (halation, leak, colour) belongs to the frame in the gate.",
+      "**Do** keep exactly one warm-core action per view, with its perforations, grain, halo glow, and `on-halo` label.",
+      "**Do** put grain on everything that glows (`grain-strength` .22 on fills and the burn, `grain-soft` .12 over the page).",
+      "**Do** use Geist Mono uppercase (11px, 0.14em) for edge print in margins and metadata, and Caveat Brush in rosewater for hand marks.",
+      "**Do** show a picture-less slice as clear leader: the unexposed frame treatment, no invented image.",
+      "**Do** list the focus ring first in any shadow stack, and keep links `ink` at rest and `halo-2` on hover.",
+      "**Do** take tokens from Enhalation when the hub needs something new (clay controls, status colours, `accent-ink`), and add them here once they ship."
+    ],
+    "donts": [
+      "**Don't** lay slices out as a thumbnail-card grid or a gallery of tiles.",
+      "**Don't** put the warm core, halation, or the leak on more than the gate frame and the one core action.",
+      "**Don't** set white text on the warm core. Use `on-halo`.",
+      "**Don't** stack an uppercase mono label above a heading. Edge print lives in the margins, not as a section opener.",
+      "**Don't** use rosewater or Caveat Brush for UI copy, controls, or anything a visitor must read to navigate.",
+      "**Don't** add a second authored page transition. The burn is the only one.",
+      "**Don't** run WebGL or heavy canvas work on the hub. The film effects are CSS layers over one still per slice.",
+      "**Don't** apply these rules inside `works/<slug>/`. Each piece keeps its own look."
+    ]
+  }
+}
